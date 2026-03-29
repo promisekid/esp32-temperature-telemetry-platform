@@ -1,0 +1,6 @@
+{"type":"telemetry","protocol":"jsonl-v2","sample_index":120,"uptime_ms":120034,"channels":[{"channel_id":0,"source":"real","name":"ds18b20_0","temperature_c":22.69,"status":"ok"},{"channel_id":1,"source":"simulated","name":"simulated_hot_channel","temperature_c":35.60,"status":"ok"}]}
+{"type":"heartbeat","protocol":"jsonl-v2","uptime_ms":120034,"fw_version":"m2-dev","channel_count":2,"device_status":"ok"}
+{"type":"telemetry","protocol":"jsonl-v2","sample_index":121,"uptime_ms":121036,"channels":[{"channel_id":0,"source":"real","name":"ds18b20_0","temperature_c":22.75,"status":"ok"},{"channel_id":1,"source":"simulated","name":"simulated_hot_channel","temperature_c":36.40,"status":"ok"}]}
+{"type":"telemetry","protocol":"jsonl-v2","sample_index":122,"uptime_ms":122041,"channels":[{"channel_id":0,"source":"real","name":"ds18b20_0","temperature_c":22.75,"status":"ok"},{"channel_id":1,"source":"simulated","name":"simulated_hot_channel","temperature_c":37.20,"status":"overtemp"}]}
+{"type":"fault","protocol":"jsonl-v2","channel_id":1,"source":"simulated","code":"overtemp_warning","message":"temperature above configured warning threshold","uptime_ms":122041}
+{"type":"heartbeat","protocol":"jsonl-v2","uptime_ms":125044,"fw_version":"m2-dev","channel_count":2,"device_status":"fault_active"}

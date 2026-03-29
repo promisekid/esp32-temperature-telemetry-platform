@@ -1,0 +1,16 @@
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.69,"sample_index":224,"uptime_ms":223067,"status":"ok"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.62,"sample_index":225,"uptime_ms":224067,"status":"ok"}
+{"type":"heartbeat","uptime_ms":225069,"fw_version":"m1-dev"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.62,"sample_index":226,"uptime_ms":225067,"status":"ok"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.62,"sample_index":227,"uptime_ms":226067,"status":"ok"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.56,"sample_index":228,"uptime_ms":227067,"status":"ok"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.56,"sample_index":229,"uptime_ms":228067,"status":"ok"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.56,"sample_index":230,"uptime_ms":229067,"status":"ok"}
+{"type":"heartbeat","uptime_ms":230069,"fw_version":"m1-dev"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.50,"sample_index":231,"uptime_ms":230067,"status":"ok"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.50,"sample_index":232,"uptime_ms":231067,"status":"ok"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.50,"sample_index":233,"uptime_ms":232067,"status":"ok"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.50,"sample_index":234,"uptime_ms":233067,"status":"ok"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.44,"sample_index":235,"uptime_ms":234067,"status":"ok"}
+{"type":"heartbeat","uptime_ms":235069,"fw_version":"m1-dev"}
+{"type":"telemetry","sensor_id":"ds18b20_0","temperature_c":23.44,"sample_index":236,"uptime_ms":235067,"status":"ok"}

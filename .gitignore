@@ -1,0 +1,53 @@
+# Build artifacts
+build/
+out/
+dist/
+bin/
+lib/
+obj/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# IDE
+.idea/
+.vscode/
+*.user
+*.suo
+*.vcxproj.user
+
+# Logs
+*.log
+logs/
+data/logs/*.log
+data/logs/*.txt
+data/logs/*.csv
+
+# Runtime data
+*.core
+*.dump
+*.tmp
+
+# Python helpers
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# AI models and large binaries
+data/models/*.onnx
+data/models/*.rknn
+data/models/*.bin
+data/models/*.weights
+data/samples/*.mp4
+data/samples/*.avi
+data/samples/*.mkv
+

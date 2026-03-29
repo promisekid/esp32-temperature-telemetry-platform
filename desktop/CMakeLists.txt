@@ -1,0 +1,4 @@
+add_subdirectory(common)
+add_subdirectory(serial_link)
+add_subdirectory(packet_codec)
+add_subdirectory(telemetry_service)

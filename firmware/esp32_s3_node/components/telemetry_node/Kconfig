@@ -1,0 +1,48 @@
+menu "Telemetry Node Configuration"
+
+choice TELEMETRY_NODE_PROTOCOL_FORMAT
+    prompt "Output protocol format"
+    default TELEMETRY_NODE_PROTOCOL_BINARY_V1
+
+config TELEMETRY_NODE_PROTOCOL_JSONL_V2
+    bool "jsonl-v2"
+
+config TELEMETRY_NODE_PROTOCOL_BINARY_V1
+    bool "binary-v1"
+
+endchoice
+
+config TELEMETRY_NODE_SENSOR_GPIO
+    int "DS18B20 data GPIO"
+    default 4
+    range 0 48
+
+config TELEMETRY_NODE_SAMPLE_PERIOD_MS
+    int "Sample period in milliseconds"
+    default 1000
+    range 500 5000
+
+config TELEMETRY_NODE_HEARTBEAT_PERIOD_MS
+    int "Heartbeat period in milliseconds"
+    default 5000
+    range 1000 30000
+
+config TELEMETRY_NODE_SENSOR_ID
+    string "Sensor identifier"
+    default "ds18b20_0"
+
+config TELEMETRY_NODE_FW_VERSION
+    string "Firmware version label"
+    default "m2-dev"
+
+config TELEMETRY_NODE_VALID_MIN_TEMP_C
+    int "Minimum valid temperature in Celsius"
+    default -55
+    range -100 150
+
+config TELEMETRY_NODE_VALID_MAX_TEMP_C
+    int "Maximum valid temperature in Celsius"
+    default 125
+    range -100 200
+
+endmenu

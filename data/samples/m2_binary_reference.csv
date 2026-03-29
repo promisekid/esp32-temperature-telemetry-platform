@@ -1,0 +1,11 @@
+host_time,device_uptime_ms,sample_index,channel_id,source,sensor_id_or_name,temperature_c,status
+2026-03-28T20:53:20,64067,82,0,real,ds18b20_0,22.69,ok
+2026-03-28T20:53:20,64067,82,1,simulated,simulated_hot_channel,35.6,ok
+2026-03-28T20:53:21,65067,84,0,real,ds18b20_0,22.75,ok
+2026-03-28T20:53:21,65067,84,1,simulated,simulated_hot_channel,36.0,ok
+2026-03-28T20:53:22,66067,85,0,real,ds18b20_0,22.75,ok
+2026-03-28T20:53:22,66067,85,1,simulated,simulated_hot_channel,36.4,ok
+2026-03-28T20:53:23,67067,86,0,real,ds18b20_0,22.75,ok
+2026-03-28T20:53:23,67067,86,1,simulated,simulated_hot_channel,36.8,ok
+2026-03-28T20:53:24,68067,87,0,real,ds18b20_0,22.75,ok
+2026-03-28T20:53:24,68067,87,1,simulated,simulated_hot_channel,37.2,overtemp
